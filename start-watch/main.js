@@ -30,7 +30,7 @@ function render() {
     else if (timer.seconds >= 3600) {
       $seconds.textContent = Math.floor(timer.seconds / 3600) + " hours " + Math.floor((timer.seconds % 3600) / 60) + " minutes " + (timer.seconds % 60) + " seconds "
     }
-  }, 1000)
+  }, 16)
 }
 
 function onetime (node, type, callback) {
